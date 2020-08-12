@@ -114,7 +114,7 @@ export default class PathfindingVisualizer extends Component {
 
 const getInitialGrid = () => {
   const grid = [];
-  for (let row = 0; row < 20; row++) {
+  for (let row = 0; row < 50; row++) {
     const currentRow = [];
     for (let col = 0; col < 50; col++) {
       currentRow.push(createNode(col, row));
