@@ -3,6 +3,16 @@
 }
 .btn{
   padding: 14px;
-  font-size: larger;
-  margin-top: 50px;
+    font-size: larger;
+    margin-top: 50px;
+    border-radius: 50px;
+    background-color: #678791;
+}
+
+.btn:hover{
+  padding: 14px;
+    font-size: larger;
+    margin-top: 50px;
+    border-radius: 50px;
+    background-color: #1F79DC;
 }
